@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.so
 
 # Precompiled Headers
 *.gch
@@ -43,14 +44,10 @@
 *.exp
 
 # Libraries
-*.lib
-*.a
-*.la
 *.lo
 
 # Shared objects (inc. Windows DLLs)
 *.so.*
-*.dylib
 
 # Executables
 *.i*86
@@ -71,3 +68,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# VS Code config folder
+.vscode
