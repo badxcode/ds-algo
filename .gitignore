@@ -71,3 +71,7 @@ dkms.conf
 
 # VS Code config folder
 .vscode
+
+# Others
+.obsidian
+template
