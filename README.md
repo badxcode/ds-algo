@@ -6,7 +6,7 @@ My notes on different Data Structures and Algorithms. 💻
 
 Data Structure is the way or method of storing and organizing data so that we can use them efficiently. 
 
-**For example: **
+**For example:**
 
 - English Dictionary: Sorted List of coords. 
 - City Maps: Organized as a geometry in a two dimensional plane.
