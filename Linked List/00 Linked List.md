@@ -1,7 +1,9 @@
 # 00 Linked List
 
-Created: 02-09-2021 15:40  
-Previous: [Index](README.md)  
+Created: 02-09-2021 15:40     
+Home: [Index](../README.md)      
+Previous: [Index](../README.md)     
+Next: [01 Singly Linked List](01%20Singly%20Linked%20List.md)    
 Source: [mycodeschool (1-4)](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
 ---
@@ -145,7 +147,7 @@ So, that's about it for why we use `Linked list` instead of `arrays`.
 There are 3 types of `Linked list`.
 1. [01 Singly Linked List](01%20Singly%20Linked%20List.md)
 2. [02 Doubly Linked List](02%20Doubly%20Linked%20List.md)
-3. Singly linked list. They are 2 types:
+3. Circular linked list. They are 2 types:
 	1. [03 Circular Singly Linked List](03%20Circular%20Singly%20Linked%20List.md)
 	2. [04 Circular Doubly Linked List](04%20Circular%20Doubly%20Linked%20List.md)
 
