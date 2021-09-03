@@ -87,7 +87,7 @@ So, we are using much memory spaces that we don't even need.
 
 ![](../Attachments/6_array.jpg)
 
-**What's the solution then? **
+**What's the solution then?**
 
 ## Linked List:
 
