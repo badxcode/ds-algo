@@ -8,7 +8,7 @@ Source: [mycodeschool (5-11)](https://www.youtube.com/playlist?list=PL2_aWCzGMAw
 
 ---
 
-Singly linked list are the basic linked list that we talked about earlier. It has a data part which stores the value and a pointer which points to the next node. 
+Singly linked list are the basic linked list that we talked about earlier. It has a data part which stores the value and a pointer which points to the next node. The navigation or linking is only forward.
 
 We first create a node like this:
 
@@ -114,7 +114,9 @@ void insertAtNthPosition(int data, int position) { // inserting at a given posit
 }
 ```
 
-###### Counting Nodes:
+If we have 5 nodes, we can insert at node 6 but we cannot insert at node 7 or higher. That's why we have to count how many nodes we have to determine if the requested position is valid or not.
+
+####### Counting Nodes:
 ```C++
 int countingNodes() { // how many nodes do we have?
     int count = 0;
@@ -130,6 +132,8 @@ int countingNodes() { // how many nodes do we have?
 ```
 
 ###### Deleting a node:
+
+For deletion also, we can't delete nodes that we don't have. Like we have 5 nodes, we can't delete nodes at position 6 or higher. That's why we are also counting nodes here using the previous function.
 
 ```C++
 void deleteNode(int position) { // delete a specific node [mycodeschool-8]
@@ -162,6 +166,8 @@ void deleteNode(int position) { // delete a specific node [mycodeschool-8]
 ```
 
 ###### Inserting node in a sorted list:
+
+In a sort list, we have to insert values in a way so that we don't break the sort. Like if we have a list like: `10 20 30 40` and we enter 15, we have to enter it after 10 like, `10 15 20 30 40`. So that it remains a sorted list even after our insertion.
 
 ```C++
 void insertInSortList(int data) { // inserts data in a sorted list [neso academy-96]
@@ -257,7 +263,9 @@ void printRecursion(struct node* print) // prints the list using recursion [myco
 }
 ```
 
-###### Printing a list in reverse:
+###### Printing a list in reverse: 
+
+Here, we are just printing list in reverse. The list stays the same internally.
 
 ```C++
 void printRecursionReverse(struct node *print) // prints the list in reverse order using recursion (doesn't actually reverse the list) [mycodeschool-10]
